@@ -1,0 +1,103 @@
+:root {
+    --color-orange: #ff6428;
+    --color-grey: #868686;
+    --color-dark-grey: #666666;
+}
+
+body {
+    font-family: 'Cal Sans';
+}
+.txt-brand {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #121212;
+}
+
+.hero-title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67px;
+
+    color: #121212;
+}
+
+.text-orange {
+    color: var(--color-orange);
+}
+
+.btn {
+    --bs-btn-padding-y: 18px;
+    --bs-btn-padding-x: 48px;
+}
+.btn-warning {
+    background-color: var(--color-orange);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.h2 {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    /* identical to box height */
+    color: #121212;
+}
+.hero-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #666666;
+}
+.pivot {
+}
+
+.pivot::after {
+    content: '';
+    background-image: url('../img/rounded-btn.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.space-out {
+    margin-left: 8.437rem;
+}
+
+.link-grey {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    color: var(--color-grey);
+}
+
+.price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-dark-grey);
+}
